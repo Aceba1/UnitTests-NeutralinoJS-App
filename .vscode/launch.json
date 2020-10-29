@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    // {
+    //   "command": "neu run",
+    //   "name": "NeutralinoJS Run",
+    //   "request": "launch",
+    //   "type": "node-terminal"
+    // },
+    {
+      "command": "neu build && neu release && neu run",
+      "name": "NeutralinoJS",
+      "request": "launch",
+      "type": "node-terminal"
+    },
+    // {
+    //   "command": "neu build",
+    //   "name": "NeutralinoJS Build (Development)",
+    //   "request": "launch",
+    //   "type": "node-terminal"
+    // }
+  ]
+}
